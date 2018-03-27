@@ -6,7 +6,7 @@ const mockBar = {
 
 const foo = new Foo(mockBar)
 
-describe('Foo.doStuff()', () => {
+describe('Foo.getBarValue()', () => {
   it('should return the message from bar', () => {
     const mockValue = 'Mock instance of Bar'
     mockBar.getValue.mockReturnValue(mockValue)
